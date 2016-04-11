@@ -1,0 +1,399 @@
+{
+  "Error": "0",
+  "Time": 0.0113,
+  "Total": "274",
+  "Page": 1,
+  "Books": [
+    {
+      "ID": 3413517292,
+      "Title": "Beginning iOS 5 Development",
+      "SubTitle": "Exploring the iOS SDK",
+      "Description": "The team that brought you the bestselling Beginning iPhone 4 Development is back again for Beginning iOS 5 Development, bringing this definitive guide up-to-date with Apple's latest and greatest iOS SDK, as well as with the latest version of Xcode. ...",
+      "Image": "http://s.it-ebooks-api.info/6/beginning_ios_5_development.jpg",
+      "isbn": "9781430236054"
+    },
+    {
+      "ID": 1136876792,
+      "Title": "Developing iOS Applications with Flex 4.5",
+      "SubTitle": "Building iOS Applications with ActionScript",
+      "Description": "Ready to put your ActionScript 3 skills to work on iPhone and iPad apps? This hands-on book walks you through the process of creating an Adobe AIR application for iOS devices from start to finish, using the Flex 4.5 framework. Move quickly from a bas ...",
+      "Image": "http://s.it-ebooks-api.info/3/developing_ios_applications_with_flex_4.5.jpg",
+      "isbn": "9781449308360"
+    },
+    {
+      "ID": 3062290377,
+      "Title": "iOS 6 Programming Cookbook",
+      "SubTitle": "Solutions for iOS Developers",
+      "Description": "Overcome the vexing issues you'll inevitably confront when creating apps for the iPhone, iPad, or iPod touch. By making use of new and revised recipes in this updated cookbook, you'll quickly learn the steps necessary to write complete iOS apps - inc ...",
+      "Image": "http://s.it-ebooks-api.info/3/ios_6_programming_cookbook.jpg",
+      "isbn": "9781449342753"
+    },
+    {
+      "ID": 3394777775,
+      "Title": "Beginning iOS 5 Games Development",
+      "SubTitle": "Using the iOS SDK for iPad, iPhone and iPod touch",
+      "Description": "Game apps on iPhone and now iPad remain one of the most popular type of apps in the Apple iTunes App Store.  Does Angry Birds ring a bell?  What you were once able to do just for the iPhone (and iPod touch) is now possible for the popular iPad, using ...",
+      "Image": "http://s.it-ebooks-api.info/6/beginning_ios_5_games_development.jpg",
+      "isbn": "9781430237105"
+    },
+    {
+      "ID": 2380777541,
+      "Title": "Beginning iOS 6 Development",
+      "SubTitle": "Exploring the iOS SDK",
+      "Description": "There's coverage of brand new technologies, with chapters on storyboards and iCloud, for example, as well as significant updates to existing chapters to bring them in line with all the changes that came with the iOS 6 SDK. You'll have everything you ...",
+      "Image": "http://s.it-ebooks-api.info/6/beginning_ios_6_development.jpg",
+      "isbn": "9781430245124"
+    },
+    {
+      "ID": 417836667,
+      "Title": "More iOS 6 Development",
+      "SubTitle": "Further Explorations of the iOS SDK",
+      "Description": "Interested in iPhone and iPad apps development? Want to learn more? Whether you're a self-taught iPhone and iPad apps development genius or have just made your way through the pages of Beginning iOS 6 Development, we have the perfect book for you. ...",
+      "Image": "http://s.it-ebooks-api.info/6/more_ios_6_development.jpg",
+      "isbn": "9781430238072"
+    },
+    {
+      "ID": 4050286253,
+      "Title": "iOS 7 Programming Cookbook",
+      "SubTitle": "Solutions for iOS Developers",
+      "Description": "Overcome the vexing issues you're likely to face when creating apps for the iPhone, iPad, or iPod touch. With new and thoroughly revised recipes in this updated cookbook, you'll quickly learn the steps necessary to work with the iOS 7 SDK, including ...",
+      "Image": "http://s.it-ebooks-api.info/3/ios_7_programming_cookbook.jpg",
+      "isbn": "9781449372422"
+    },
+    {
+      "ID": 3978472863,
+      "Title": "Application Development with Parse using iOS SDK",
+      "SubTitle": "Develop the backend of your applications instantly using Parse iOS SDK",
+      "Description": "Parse using iOS SDK is a new technology, and is the first of its kind in the field of mobile application development. It provides you the cloud where you can keep your data, host your code, and even your website without any hassle. It provides SDK so ...",
+      "Image": "http://s.it-ebooks-api.info/14/application_development_with_parse_using_ios_sdk.jpg",
+      "isbn": "9781783550333"
+    },
+    {
+      "ID": 1706085509,
+      "Title": "iOS and OS X Network Programming Cookbook",
+      "SubTitle": "Over 50 recipes to develop network applications in both the iOS and OS X environment",
+      "Description": "Darwin, which forms the core set of components for OS X and iOS, is compatible with the Single UNIX Specification Version 3 and POSIX UNIX. Therefore OS X and iOS are UNIX operating systems. While there are numerous books and articles written to teac ...",
+      "Image": "http://s.it-ebooks-api.info/14/ios_and_os_x_network_programming_cookbook.jpg",
+      "isbn": "9781849698085"
+    },
+    {
+      "ID": 1131862805,
+      "Title": "Application Development in iOS 7",
+      "SubTitle": "Learn how to build an entire real-world application using all of iOS 7's new features",
+      "Description": "Unleash the new features of iOS 7 within the latest Xcode development environment. One of the most important pieces of any SDK is the Integrated Development Environment (IDE), which is why we will start by learning all the new features of Xcode 5. Mo ...",
+      "Image": "http://s.it-ebooks-api.info/14/application_development_in_ios_7.jpg",
+      "isbn": "9781783550319"
+    },
+    {
+      "ID":807716769,
+      "Title":"Beginning iOS Programming",
+      "SubTitle":"Building and Deploying iOS Applications",
+      "Description":"iOS 7 is a major shift in the look and feel of apps—the first major sea change since the iPhone was first introduced. For apps to blend in with the new UI, each needs a complete redesign. Beginning iOS Programming: Building and Deploying iOS Applic ...",
+      "Image":"http://s.it-ebooks-api.info/2/beginning_ios_programming.jpg",
+      "isbn":"9781118841471"
+    },
+    {
+      "ID":2441066579,
+      "Title":"iOS Components and Frameworks",
+      "SubTitle":"Understanding the Advanced Features of the iOS SDK",
+      "Description":"iOS Components and Frameworks will help you leverage iOS's powerful components and frameworks to build apps with outstanding performance, reliability, interactivity, media support, and customization. Pioneering iOS developers Kyle Richter and Joe ...",
+      "Image":"http://s.it-ebooks-api.info/10/ios_components_and_frameworks.jpg",
+      "isbn":"9780321856715"
+    },
+    {
+      "ID":3263084198,
+      "Title":"Beginning iOS 7 Development",
+      "SubTitle":"Exploring the iOS SDK",
+      "Description":"The team that brought you the bestselling Beginning iPhone Development is back again for Beginning iOS 7 Development, bringing this definitive guide up-to-date with Apple's latest and greatest iOS 7 SDK, as well as with the latest version of Xcode. ...",
+      "Image":"http://s.it-ebooks-api.info/6/beginning_ios_7_development.jpg",
+      "isbn":"9781430260226"
+    },
+    {
+      "ID":4038554568,
+      "Title":"iOS 8 Swift Programming Cookbook",
+      "SubTitle":"Solutions & Examples for iOS Apps",
+      "Description":"Entirely rewritten for Apple's Swift programming language, this updated cookbook helps you overcome the vexing issues you're likely to face when creating apps for iOS devices. You'll find hundreds of new and revised recipes for using the iOS 8 SDK ...",
+      "Image":"http://s.it-ebooks-api.info/3/ios_8_swift_programming_cookbook.jpg",
+      "isbn":"9781491908693"
+    },
+    {
+      "ID":944795132,
+      "Title":"Learning iOS 8 for Enterprise",
+      "SubTitle":"Design and develop stunning iOS applications for business environments",
+      "Description":"iOS 8 is the biggest release for developers since the introduction of the App Store. iOS devices are widely used in enterprise environments, and iOS 8 is packed with new features for enterprises. With millions of iOS 8 devices out on the market, ther ...",
+      "Image":"http://s.it-ebooks-api.info/14/learning_ios_8_for_enterprise.jpg",
+      "isbn":"9781784391829"
+    },
+    {
+      "ID":1534642530,
+      "Title":"Learning Unreal Engine iOS Game Development",
+      "SubTitle":"Create exciting iOS games with the power of the new Unreal Engine 4 subsystems",
+      "Description":"Unreal Engine 4 has always been the best measurement for industry standards. With all its tools and power, game developers and designers can reach a new level of productivity for their games with the lowest cost ever. Learning Unreal Engine iOS Ga ...",
+      "Image":"http://s.it-ebooks-api.info/14/learning_unreal_engine_ios_game_development.jpg",
+      "isbn":"9781784397715"
+    },
+    {
+      "ID":2701530666,
+      "Title":"Learning iOS Security",
+      "SubTitle":"Enhance the security of your iOS platform and applications using iOS-centric security techniques",
+      "Description":"iOS has quickly become one of the most popular mobile operating systems, not only with users, but also with developers and companies. This also makes it a popular platform for malicious adversaries. iOS users and developers need to be constantly awar ...",
+      "Image":"http://s.it-ebooks-api.info/14/learning_ios_security.jpg",
+      "isbn":"9781783551743"
+    },
+    {
+      "ID":168579030,
+      "Title":"Learning iOS Forensics",
+      "SubTitle":"A practical hands-on guide to acquire and analyze iOS devices with the latest forensic techniques and tools",
+      "Description":"Mobile device forensics relates to the recovery of data from a mobile device. It has an impact on many different situations including criminal investigations and intelligence gathering. iOS devices, with their wide range of functionality and usabilit ...",
+      "Image":"http://s.it-ebooks-api.info/14/learning_ios_forensics.jpg",
+      "isbn":"9781783553518"
+    },
+    {
+      "ID":413612397,
+      "Title":"Learning iOS Development",
+      "SubTitle":"A Hands-on Guide to the Fundamentals of iOS Programming",
+      "Description":"Learning iOS Developmentis the perfect first book for every new iOS 7 developer. It delivers a complete foundation for iOS development, including an introduction to the Objective-C language, Xcode development tools, best-practice user interface deve ...",
+      "Image":"http://s.it-ebooks-api.info/10/learning_ios_development.jpg",
+      "isbn":"9780321862969"
+    },
+    {
+      "ID":3747964194,
+      "Title":"iOS 9 Swift Programming Cookbook",
+      "SubTitle":"Solutions and Examples for iOS Apps",
+      "Description":"Ready to build stunning apps for iPhone, iPad, and Apple Watch? This cookbook - completely rewritten with all-new material—provides 90 proven solutions for tackling the latest features in iOS 9 and watchOS 2.0. Written exclusively in Apple's Swift ...",
+      "Image":"http://s.it-ebooks-api.info/3/ios_9_swift_programming_cookbook_early_release.jpg",
+      "isbn":"9781491936696"
+    },
+    {
+      "ID":725386898,
+      "Title":"Learning iOS UI Development",
+      "SubTitle":"Implement complex iOS user interfaces with ease using Swift",
+      "Description":"Through this comprehensive one-stop guide, you'll get to grips with the entire UIKit framework and in a flash, you'll be creating modern user interfaces for your iOS devices using Swift. Starting with an overview of the iOS drawing system and the ...",
+      "Image":"http://s.it-ebooks-api.info/14/learning_ios_ui_development.jpg",
+      "isbn":"9781785288197"
+    },
+    {
+      "ID":3277695127,
+      "Title":"Mastering iOS Game Development",
+      "SubTitle":"Master the advanced concepts of game development for iOS to build impressive games",
+      "Description":"iOS is an operating system for Apple manufactured phones and tablets. Mobile gaming is one of the fastest-growing industries, and compatibility with iOS is now becoming the norm for game developers. SpriteKit is part of the native SDK from Apple, and ...",
+      "Image":"http://s.it-ebooks-api.info/14/mastering_ios_game_development.jpg",
+      "isbn":"9781783554355"
+    },
+    {
+      "ID":3312206944,
+      "Title":"React Native for iOS Development",
+      "SubTitle":"Harness the power of React and JavaScript to build stunning iOS applications",
+      "Description":"This book is your hands-on guide to developing native iOS apps with ease. With React Native for iOS Development you'll challenge the status quo of native iOS development with revolutionary components, asynchronous execution, unique methods for touch ...",
+      "Image":"http://s.it-ebooks-api.info/6/react_native_for_ios_development.jpg",
+      "isbn":"9781484213964"
+    },
+    {
+      "ID":1999815995,
+      "Title":"iOS Recipes",
+      "SubTitle":"Tips and Tricks for Awesome iPhone and iPad Apps",
+      "Description":"Take your iPhone and iPad apps to the next level. You've seen cool features and tricks in other apps, but haven't had the time to really look into how they're done. We've got the answers for you. This book walks you through clean, reusable solutions ...",
+      "Image":"http://s.it-ebooks-api.info/1/ios_recipes.jpg",
+      "isbn":"9781934356746"
+    },
+    {
+      "ID":132930865,
+      "Title":"Developing Enterprise iOS Applications",
+      "SubTitle":"iPhone and iPad Apps for Companies and Organizations",
+      "Description":"If you plan to develop iOS applications in a corporate setting-for internal consumption or for sale to end users-you need to read this book. Veteran developer James Turner shares best practices and lessons learned from his recent on-the-ground experi ...",
+      "Image":"http://s.it-ebooks-api.info/3/developing_enterprise_ios_applications.jpg",
+      "isbn":"9781449311483"
+    },
+    {
+      "ID":3626192187,
+      "Title":"iOS 4 in Action",
+      "SubTitle":"Examples and Solutions for iPhone & iPad",
+      "Description":"iOS 4 in Action, written for Xcode 4, is a detailed, hands-on guide that goes from setting up your development environment, through your first coding steps, all the way to creating a polished, commercial iOS 4 application. You'll run through examples ...",
+      "Image":"http://s.it-ebooks-api.info/5/ios_4_in_action.jpg",
+      "isbn":"9781617290015"
+    },
+    {
+      "ID":502471344,
+      "Title":"OS X and iOS Kernel Programming",
+      "Description":"OS X and iOS Kernel Programming combines essential operating system and kernel architecture knowledge with a highly practical approach that will help you write effective kernel-level code. You’ll learn fundamental concepts such as memory management ...",
+      "Image":"http://s.it-ebooks-api.info/6/os_x_and_ios_kernel_programming.jpg",
+      "isbn":"9781430235361"
+    },
+    {
+      "ID":2213001704,
+      "Title":"Writing Game Center Apps in iOS",
+      "SubTitle":"Bringing Your Players Into the Game",
+      "Description":"Now that Apple has introduced the GameKit framework to its iOS SDK, you can integrate Game Center features directly into your iPhone and iPad apps. This concise cookbook shows you how it's done, with 18 targeted recipes for adding leaderboards, user ...",
+      "Image":"http://s.it-ebooks-api.info/3/writing_game_center_apps_in_ios.jpg",
+      "isbn":"9781449305659"
+    },
+    {
+      "ID":1030067944,
+      "Title":"Concurrent Programming in Mac OS X and iOS",
+      "SubTitle":"Unleash Multicore Performance with Grand Central Dispatch",
+      "Description":"Now that multicore processors are coming to mobile devices, wouldn't it be great to take advantage of all those cores without having to manage threads? This concise book shows you how to use Apple's Grand Central Dispatch (GCD) to simplify programmin ...",
+      "Image":"http://s.it-ebooks-api.info/3/concurrent_programming_in_mac_os_x_and_ios.jpg",
+      "isbn":"9781449305635"
+    },
+    {
+      "ID":3915157461,
+      "Title":"Programming iOS 4",
+      "SubTitle":"Fundamentals of iPhone, iPad, and iPod touch Development",
+      "Description":"Get a solid grounding in all the fundamentals of Cocoa Touch, and avoid problems during iPhone and iPad app development. With Programming iOS 4, you'll dig into Cocoa and learn how to work effectively with Objective-C and Xcode. This book covers iOS ...",
+      "Image":"http://s.it-ebooks-api.info/3/programming_ios_4.jpg",
+      "isbn":"9781449388430"
+    },
+    {
+      "ID":491951800,
+      "Title":"Programming iOS 5",
+      "SubTitle":"Fundamentals of iPhone, iPad, and iPod touch Development",
+      "Description":"With this digital Early Release edition of Programming iOS 5, you get the entire book bundle in its earliest form - the author's raw and unedited content - so you can take advantage of this content long before the book's official release. You'll also ...",
+      "Image":"http://s.it-ebooks-api.info/3/programming_ios_5.jpg",
+      "isbn":"9781449319342"
+    },
+    {
+      "ID":3274457869,
+      "Title":"Hacking and Securing iOS Applications",
+      "SubTitle":"Stealing Data, Hijacking Software, and How to Prevent It",
+      "Description":"If you're an app developer with a solid foundation in Objective-C, this book is an absolute must - chances are very high that your company's iOS applications are vulnerable to attack. That's because malicious attackers now use an arsenal of tools to ...",
+      "Image":"http://s.it-ebooks-api.info/3/hacking_and_securing_ios_applications.jpg",
+      "isbn":"9781449318741"
+    },
+    {
+      "ID":4131123621,
+      "Title":"Beginning iOS 5 Application Development",
+      "Description":"Ideal for beginning developers who are eager to create native applications for Apple's mobile devices, this full-color guide walks you through the core building blocks of iPhone and iPad® application development, including new features such as iClou ...",
+      "Image":"http://s.it-ebooks-api.info/2/beginning_ios_5_application_development.jpg",
+      "isbn":"9781118144251"
+    },
+    {
+      "ID":3091515880,
+      "Title":"Pro OpenGL ES for IOS",
+      "Description":"In Pro OpenGL ES for iOS, you'll find out how to harness the full power of OpenGL ES, and design your own 3D applications by building a fully-functional 3D solar system model using Open GL ES! OpenGL has set the standard for 3D computer graphics, ...",
+      "Image":"http://s.it-ebooks-api.info/6/pro_opengl_es_for_ios.jpg",
+      "isbn":"9781430238409"
+    },
+    {
+      "ID":634924335,
+      "Title":"Pro iOS Web Design and Development",
+      "SubTitle":"HTML5, CSS3, and JavaScript with Safari",
+      "Description":"With Pro iOS Web Design and Development, you'll design websites and develop web applications for iPhone and iPad using web standards deployed with Apple's Safari browser. Utilizing the very latest web and mobile technologies and releases, this boo ...",
+      "Image":"http://s.it-ebooks-api.info/6/pro_ios_web_design_and_development.jpg",
+      "isbn":"9781430232469"
+    },
+    {
+      "ID":1998790878,
+      "Title":"Basic Sensors in iOS",
+      "SubTitle":"Programming the Accelerometer, Gyroscope, and More",
+      "Description":"What really sets the iPhone apart from laptops and PCs is its use of onboard sensors, including those that are location-enabled. This concise book takes experienced iPhone and Mac developers on a detailed tour of iPhone and iPad hardware by explainin ...",
+      "Image":"http://s.it-ebooks-api.info/3/basic_sensors_in_ios.jpg",
+      "isbn":"9781449308469"
+    },
+    {
+      "ID":10202096,
+      "Title":"Beginning iOS Apps with Facebook and Twitter APIs",
+      "SubTitle":"for iPhone, iPad, and iPod touch",
+      "Description":"Beginning iOS Apps with Facebook and Twitter APIs shows you how to add the power of social networking to your mobile apps on iPhone, iPad, and iPod touch. With this book as your guide, you can write apps that connect to Facebook and Twitter quickly, ...",
+      "Image":"http://s.it-ebooks-api.info/6/beginning_ios_apps_with_facebook_and_twitter_apis.jpg",
+      "isbn":"9781430235422"
+    },
+    {
+      "ID":79175813,
+      "Title":"Developing C# Apps for iPhone and iPad using MonoTouch",
+      "SubTitle":"iOS Apps Development for .NET Developers",
+      "Description":"Developing C# Applications for iPhone and iPad using MonoTouch shows you how to use your existing C# skills to write apps for the iPhone and iPad. Fortunately, there's MonoTouch, Novell's .NET library that allows C# developers to write C# code that e ...",
+      "Image":"http://s.it-ebooks-api.info/6/developing_c_apps_for_iphone_and_ipad_using_monotouch.jpg",
+      "isbn":"9781430231745"
+    },
+    {
+      "ID":3132388708,
+      "Title":"IOS 5 Recipes",
+      "SubTitle":"A Problem-Solution Approach",
+      "Description":"iOS 5 Recipes: A Problem-Solution Approach is your guide to developing solutions on iPad, iPhone, and other iOS 5 devices and platforms. This book provides in-depth code samples and discussions for scenarios that developers face every day. You'll fin ...",
+      "Image":"http://s.it-ebooks-api.info/6/ios_5_recipes.jpg",
+      "isbn":"9781430240051"
+    },
+    {
+      "ID":2455970409,
+      "Title":"Game and Graphics Programming for iOS and Android with OpenGL ES 2.0",
+      "Description":"The smart phone app market is progressively growing, and there is new market gap to fill that requires more graphically sophisticated applications and games. Game and Graphics Programming for iOS and Android with OpenGL ES 2.0 quickly gets you up to ...",
+      "Image":"http://s.it-ebooks-api.info/9/game_and_graphics_programming_for_ios_and_android_with_opengl_es_2.0.jpg",
+      "isbn":"9781119975915"
+    },
+    {
+      "ID":87192261,
+      "Title":"Beginning iOS Application Development with HTML and JavaScript",
+      "Description":"Beginning to intermediate web developers who want to apply their existing HTML/CSS/JS/Ajax skills to the wildly popular iPhone/iPad OS will love this book. In the highly successful Wrox Beginning format, it enables developers who know these core tech ...",
+      "Image":"http://s.it-ebooks-api.info/9/beginning_ios_application_development_with_html_and_javascript.jpg",
+      "isbn":"9781118159002"
+    },
+    {
+      "ID":2823691521,
+      "Title":"Making Musical Apps",
+      "SubTitle":"Real-time audio synthesis on Android and iOS",
+      "Description":"Want to turn your mobile device into a musical instrument? Or equip your game with interactive audio, rather than canned samples? You can do it with Pure Data (Pd), an open source visual programming environment that lets you manipulate digital audio ...",
+      "Image":"http://s.it-ebooks-api.info/3/making_musical_apps.jpg",
+      "isbn":"9781449314903"
+    },
+    {
+      "ID":2203991232,
+      "Title":"Programming iOS 5, 2nd Edition : Covers iOS 5 and Xcode 4.3",
+      "SubTitle":"Fundamentals of iPhone, iPad, and iPod touch Development",
+      "Description":"Get a solid grounding in the fundamentals of Cocoa Touch, and avoid problems during iPhone and iPad app development. With this revised and expanded edition, you'll dig into Cocoa and learn how to work effectively with Objective-C and Xcode. This book ...",
+      "Image":"http://s.it-ebooks-api.info/3/programming_ios_5_2nd_edition__covers_ios_5_and_xcode_4.3.jpg",
+      "isbn":"9781449319342"
+    },
+    {
+      "ID":1500440661,
+      "Title":"Beginning iOS Game Development",
+      "Description":"Want to start writing games for the iPhone and iPad, but you're new to iOS development? This book provides the starting point. No matter your experience level with iOS programming, this beginner's guide covers the technologies you need to know to get ...",
+      "Image":"http://s.it-ebooks-api.info/2/beginning_ios_game_development.jpg",
+      "isbn":"9781457108167"
+    },
+    {
+      "ID":2013897889,
+      "Title":"Sams Teach Yourself iOS 5 Application Development in 24 Hours, 3rd Edition",
+      "Description":"In just 24 sessions of one hour each, learn how to build powerful applications for today's hottest handheld devices: the iPhone and iPad! Using this book's straightforward, step-by-step approach, you'll master every skill and technology you need, fro ...",
+      "Image":"http://s.it-ebooks-api.info/12/sams_teach_yourself_ios_5_application_development_in_24_hours_3rd_edition.jpg",
+      "isbn":"9780672335761"
+    },
+    {
+      "ID":1944647126,
+      "Title":"Mobile Development with C#",
+      "SubTitle":"Building Native iOS, Android, and Windows Phone Applications",
+      "Description":"It's true: you can build native apps for iOS, Android, and Windows Phone with C# and the .NET Framework - with help from MonoTouch and Mono for Android. This hands-on guide shows you how to reuse one codebase across all three platforms by combining t ...",
+      "Image":"http://s.it-ebooks-api.info/3/mobile_development_with_c.jpg",
+      "isbn":"9781449320232"
+    },
+    {
+      "ID":701486706,
+      "Title":"iOS 5 Programming Cookbook",
+      "SubTitle":"Solutions & Examples for iPhone, iPad, and iPod touch Apps",
+      "Description":"Now you can overcome the vexing, real-life issues you confront when creating apps for the iPhone, iPad, or iPod Touch. By making use of more than 100 new recipes in this updated cookbook, you'll quickly learn the steps necessary for writing complete ...",
+      "Image":"http://s.it-ebooks-api.info/3/ios_5_programming_cookbook.jpg",
+      "isbn":"9781449311438"
+    },
+    {
+      "ID":2238126906,
+      "Title":"Windows Phone 7 Programming for Android and iOS Developers",
+      "Description":"In order to create new applications for Windows Phone 7 (WP7), it is critical to have a strong understanding of the architecture of the new WP7 operating system. With a special focus placed on the WP7 design guidelines and technologies, and a look at ...",
+      "Image":"http://s.it-ebooks-api.info/2/windows_phone_7_programming_for_android_and_ios_developers.jpg",
+      "isbn":"9781457106804"
+    },
+    {
+      "ID":3103531008,
+      "Title":"Taking Your iPhone 4S to the Max",
+      "SubTitle":"For iPhone 4S and Other iOS 5-Enabled iPhones",
+      "Description":"Whether you're using the new iPhone 4S or earlier iPhone that runs the new iOS 5, you'll find all the best undocumented tricks, as well as the most efficient and enjoyable introduction to the iPhone available. Starting with an introduction to iPhone ...",
+      "Image":"http://s.it-ebooks-api.info/6/taking_your_iphone_4s_to_the_max.jpg",
+      "isbn":"9781430235811"
+    },
+    {
+      "ID":2962704487,
+      "Title":"Test-Driven iOS Development",
+      "Description":"As iOS apps become increasingly complex and business-critical, iOS developers must ensure consistently superior code quality. This means adopting best practices for creating and testing iOS apps. Test-Driven Development (TDD) is one of the most power ...",
+      "Image":"http://s.it-ebooks-api.info/10/test-driven_ios_development.jpg",
+      "isbn":"9780321774187"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "Error": "0",
+  "Time": 0.0108,
+  "Total": "228",
+  "Page": 1,
+  "Books": [
+    {
+      "ID": 2382751283,
+      "Title": "Head First SQL",
+      "SubTitle": "Your Brain on SQL - A Learner's Guide",
+      "Description": "Maybe you've written some simple SQL queries to interact with databases. But now you want more, you want to really dig into those databases and work with your data. Head First SQL will show you the fundamentals of SQL and how to really take advantage ...",
+      "Image": "http://s.it-ebooks-api.info/3/head_first_sql.jpg",
+      "isbn": "9780596526849"
+    },
+    {
+      "ID": 2930028654,
+      "Title": "SQL and Relational Theory",
+      "SubTitle": "How to Write Accurate SQL Code",
+      "Description": "Understanding SQL's underlying theory is the best way to guarantee that your SQL code is correct and your database schema is robust and maintainable. In SQL and Relational Theory, author C.J. Date demonstrates how you can apply relational theory dire ...",
+      "Image": "http://s.it-ebooks-api.info/3/sql_and_relational_theory.jpg",
+      "isbn": "9780596523060"
+    },
+    {
+      "ID": 3861938756,
+      "Title": "SQL Pocket Guide, 3rd Edition",
+      "SubTitle": "A Guide to SQL Usage",
+      "Description": "If you're a programmer or database administrator who uses SQL in your day-to-day work, this popular pocket guide is the ideal on-the-job reference. It uses numerous examples to address the language's complexity, and covers key aspects of SQL used in ...",
+      "Image": "http://s.it-ebooks-api.info/3/sql_pocket_guide_third_edition.jpg",
+      "isbn": "9781449394097"
+    },
+    {
+      "ID": 1123599227,
+      "Title": "Learning SQL, 2nd Edition",
+      "SubTitle": "Master SQL Fundamentals",
+      "Description": "Updated for the latest database management systems, this introductory guide will get you up and running with SQL quickly. Whether you need to write database applications, perform administrative tasks, or generate reports, Learning SQL, Second Edition ...",
+      "Image": "http://s.it-ebooks-api.info/3/learning_sql_second_edition.jpg",
+      "isbn": "9780596520830"
+    },
+    {
+      "ID": 1081583253,
+      "Title": "Oracle PL/SQL Language Pocket Reference, 4th Edition",
+      "SubTitle": "A Guide to Oracle's PL/SQL Language Fundamentals",
+      "Description": "The fourth edition of this popular pocket guide provides quick-reference information that will help you use Oracle's PL/SQL language, including the newest Oracle Database 11g features. A companion to Steven Feuerstein and Bill Pribyl's bestselling Or ...",
+      "Image": "http://s.it-ebooks-api.info/3/oracle_plsql_language_pocket_reference_fourth_edition.jpg",
+      "isbn": "9780596514044"
+    },
+    {
+      "ID": 3687486784,
+      "Title": "Beginning SQL Server Modeling",
+      "SubTitle": "Model-Driven Application Development in SQL Server 2008",
+      "Description": "Beginning SQL Server Modeling will help you gain a comprehensive understanding of how to apply DSLs and other modeling components in the development of SQL Server implementations. Most importantly, after reading the book and working through the examp ...",
+      "Image": "http://s.it-ebooks-api.info/6/beginning_sql_server_modeling.jpg",
+      "isbn": "9781430227519"
+    },
+    {
+      "ID": 3557692628,
+      "Title": "Pro SQL Database for Windows Azure, 2nd Edition",
+      "SubTitle": "SQL Server in the Cloud",
+      "Description": "Pro SQL Database for Windows Azure, 2nd Edition shows how to create enterprise-level database deployments without the usual investment in datacenter and other infrastructure. Take advantage instead of Microsoft's worldwide backbone for cloud computin ...",
+      "Image": "http://s.it-ebooks-api.info/6/pro_sql_database_for_windows_azure_2nd_edition.jpg",
+      "isbn": "9781430243953"
+    },
+    {
+      "ID": 1025718732,
+      "Title": "Microsoft SQL Azure: Enterprise Application Development",
+      "SubTitle": "Build enterprise-ready applications and projects with SQL Azure",
+      "Description": "Develop large scale enterprise applications using Microsoft SQL Azure. Understand how to use the various third party programs such as DB Artisan, RedGate, ToadSoft etc developed for SQL Azure. Master the exhaustive Data migration and Data Synchroniza ...",
+      "Image": "http://s.it-ebooks-api.info/14/microsoft_sql_azure_enterprise_application_development.jpg",
+      "isbn": "9781849680806"
+    },
+    {
+      "ID": 1749859432,
+      "Title": "Microsoft SQL Server 2008 R2 Administration Cookbook",
+      "SubTitle": "Over 70 practical recipes for administering a high-performance SQL Server 2008 R2 system",
+      "Description": "Provides Advanced Administration techniques for SQL Server 2008 R2 as a book. Covers the essential Manageability, Programmability, and Security features. Emphasizes important High Availability features and implementation. Explains how to maintain and ...",
+      "Image": "http://s.it-ebooks-api.info/14/microsoft_sql_server_2008_r2_administration_cookbook.jpg",
+      "isbn": "9781849681445"
+    },
+    {
+      "ID": 1324819231,
+      "Title": "Microsoft SQL Server 2008 High Availability",
+      "SubTitle": "Minimize downtime, speed up recovery, and achieve the highest level of availability and reliability for SQL server applications by mastering the concepts of database mirroring, log shipping, clusterin",
+      "Description": "Install various SQL Server High Availability options in a step-by-step manner. A guide to SQL Server High Availability for DBA aspirants, proficient developers and system administrators. Learn the pre and post installation concepts and common issues ...",
+      "Image": "http://s.it-ebooks-api.info/14/microsoft_sql_server_2008_high_availability.jpg",
+      "isbn": "9781849681223"
+    }
+  ]
+}

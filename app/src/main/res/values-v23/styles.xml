@@ -1,0 +1,8 @@
+<resources>
+    <!--fake card view style-->
+    <style name="fakeCardView">
+        <item name="android:elevation">@dimen/spacing_micro</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/bg_ripple</item>
+    </style>
+</resources>

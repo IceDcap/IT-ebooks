@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <!--fake card view style-->
+    <style name="fakeCardView">
+        <item name="android:elevation">@dimen/spacing_micro</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/bg_ripple</item>
+    </style>
+
+    <style name="MyAlertDialog" parent="AlertDialog.AppCompat">
+        <item name="android:radioButtonStyle">@style/AppTheme</item>
+    </style>
+</resources>

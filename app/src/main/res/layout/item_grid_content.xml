@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/grid_content_itemview"
+    style="@style/fakeCardView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/spacing_mini">
+
+    <TextView
+        android:id="@+id/content_book_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/content_book_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        tools:src="@drawable/developing_android_applications_with_flex"/>
+
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/content_book_content"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_gravity="bottom"-->
+    <!--android:background="@color/bg_text"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:padding="@dimen/spacing_micro">-->
+
+    <!--<com.icedcap.itbookfinder.widget.TypefaceTextView-->
+    <!--android:id="@+id/content_book_title"-->
+    <!--style="@style/textSecondary"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_toLeftOf="@+id/more_vert"-->
+    <!--android:ellipsize="end"-->
+    <!--android:maxLines="2"-->
+    <!--android:textColor="#fff"-->
+    <!--tools:text="Android 4: New Features for Application Development"/>-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/more_vert"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentEnd="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:src="@drawable/ic_more_vert"/>-->
+    <!--</RelativeLayout>-->
+</FrameLayout>

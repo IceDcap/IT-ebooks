@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/general">
+        <SwitchPreference
+            android:key="auto_cache_in_wifi"
+            android:title="@string/auto_cache_in_wifi"/>
+
+        <ListPreference
+            android:defaultValue="1"
+            android:dialogTitle="@string/home_page_layout"
+            android:entries="@array/entries_homepage_layout"
+            android:entryValues="@array/homepage_layout"
+            android:key="homepage_layout"
+            android:title="@string/home_page_layout"/>
+
+
+    </PreferenceCategory>
+    <Preference
+        android:defaultValue="@string/about"
+        android:key="about"
+        android:summary="@string/about"
+        android:title="@string/about"/>
+    <Preference
+        android:defaultValue="@string/license"
+        android:key="license"
+        android:summary="@string/license"
+        android:title="@string/license"/>
+</PreferenceScreen>

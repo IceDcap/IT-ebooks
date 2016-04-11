@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    style="@style/fakeCardView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:layout_marginBottom="@dimen/spacing_mini"
+    android:layout_marginLeft="@dimen/spacing_micro"
+    android:layout_marginRight="@dimen/spacing_micro"
+    android:layout_marginTop="@dimen/spacing_mini"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/content_book_icon"
+        android:layout_width="72dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/spacing_normal"
+        android:layout_marginLeft="@dimen/spacing_normal"
+        android:layout_marginRight="@dimen/spacing_normal"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:scaleType="center"
+        tools:src="@drawable/developing_android_applications_with_adobe_air"/>
+
+    <LinearLayout
+        android:id="@+id/content_book_content"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/content_book_icon"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/spacing_normal"
+        android:layout_marginBottom="@dimen/spacing_normal"
+        android:layout_toLeftOf="@+id/more_vert"
+        android:layout_toRightOf="@+id/content_book_icon"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/content_book_title"
+            style="@style/textPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="3"
+            tools:text="Android 4: New Features for Application Development"/>
+
+        <TextView
+            android:id="@+id/content_book_subtitle"
+            style="@style/textSecondary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_mini"
+            android:ellipsize="end"
+            android:maxLines="2"
+            tools:text="Develop Android applications using the new features of Android Ice Cream Sandwich"/>
+
+        <com.icedcap.itbookfinder.widget.MyTextView
+            android:id="@+id/content_book_description"
+            style="@style/textSecondary"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:textSize="10sp"
+            tools:text="Learn new APIs in Android 4. Get familiar with the best practices in developing Android applications. Step-by-step approach with clearly explained sample codes. ..."/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/more_vert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/spacing_normal"
+        android:layout_marginRight="@dimen/spacing_normal"
+        android:src="@drawable/ic_more_vert"/>
+</RelativeLayout>

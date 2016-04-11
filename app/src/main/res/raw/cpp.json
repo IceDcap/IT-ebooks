@@ -1,0 +1,81 @@
+{
+  "Error": "0",
+  "Time": 0.0104,
+  "Total": "68",
+  "Page": 1,
+  "Books": [
+    {
+      "ID": 1136246725,
+      "Title": "C Primer Plus, 6th Edition",
+      "Description": "C Primer Plus is a carefully tested, well-crafted, and complete tutorial on a subject core to programmers and developers. This computer science classic teaches principles of programming, including structured code and top-down design.\n\nAuthor and ed ...",
+      "Image": "http://s.it-ebooks-api.info/10/c_primer_plus_6th_edition.jpg",
+      "isbn": "9780321928429"
+    },
+    {
+      "ID": 4224828228,
+      "Title": "Cocoa Programming",
+      "SubTitle": "A Quick-Start Guide for Developers",
+      "Description": "Apple's Cocoa frameworks let you write powerful and attractive applications for Mac OS X or the iPhone. With this book plus your existing knowledge of object-oriented programming you can take advantage of Cocoa and create compelling, feature rich, co ...",
+      "Image": "http://s.it-ebooks-api.info/1/cocoa_programming.jpg",
+      "isbn": "9781934356302"
+    },
+    {
+      "ID": 1720192808,
+      "Title": "Microsoft SharePoint 2007 for Office 2007 Users",
+      "Description": "Aimed at end users who face the daunting task of mastering MOSS 2007 in the enterprise business environment, this book shows you how to make effective use of what can be a confusing array of features. You?ll review how SharePoint is central to the Mi ...",
+      "Image": "http://s.it-ebooks-api.info/2/microsoft_sharepoint_2007_for_office_2007_users.jpg",
+      "isbn": "9780470448755"
+    },
+    {
+      "ID": 705868833,
+      "Title": "OpenSocial Network Programming",
+      "Description": "OpenSocial is a set of common application programming interfaces for Web-based social network applications. As the first book on OpenSocial, this valuable resource discusses the unique area of social networking and the needs and different attributes ...",
+      "Image": "http://s.it-ebooks-api.info/2/opensocial_network_programming.jpg",
+      "isbn": "9780470442227"
+    },
+    {
+      "ID": 3315469338,
+      "Title": "Ruby on Rails for Microsoft Developers",
+      "Description": "This definitive guide examines how to take advantage of the new Agile methodologies offered when using Ruby on Rails (RoR). You'll quickly grasp the RoR methodology by focusing on the RoR development from the point of view of the beginner- to interme ...",
+      "Image": "http://s.it-ebooks-api.info/2/ruby_on_rails_for_microsoft_developers.jpg",
+      "isbn": "9780470374955"
+    },
+    {
+      "ID": 2019045622,
+      "Title": "Linux System Administration Recipes",
+      "SubTitle": "A Problem-Solution Approach",
+      "Description": "The job of Linux systems administrator is interrupt-driven and requires constant learning in byte-wise chunks. This book gives solutions to modern problems-even some you might not have heard of-such as scripting LDAP, making Mac clients play nice wit ...",
+      "Image": "http://s.it-ebooks-api.info/6/linux_system_administration_recipes_a_problem-solution_approach.jpg",
+      "isbn": "9781430224495"
+    },
+    {
+      "ID": 1144220034,
+      "Title": "Pragmatic Guide to Sass",
+      "Description": "CSS is fundamental to the web, but it's a basic language and lacks many features. Sass is just like CSS, but with a whole lot of extra power so you can get more done, more quickly. Build better web pages today with Pragmatic Guide to Sass. These conc ...",
+      "Image": "http://s.it-ebooks-api.info/1/pragmatic_guide_to_sass.jpg",
+      "isbn": "9781934356845"
+    },
+    {
+      "ID": 79175813,
+      "Title": "Developing C# Apps for iPhone and iPad using MonoTouch",
+      "SubTitle": "iOS Apps Development for .NET Developers",
+      "Description": "Developing C# Applications for iPhone and iPad using MonoTouch shows you how to use your existing C# skills to write apps for the iPhone and iPad. Fortunately, there's MonoTouch, Novell's .NET library that allows C# developers to write C# code that e ...",
+      "Image": "http://s.it-ebooks-api.info/6/developing_c_apps_for_iphone_and_ipad_using_monotouch.jpg",
+      "isbn": "9781430231745"
+    },
+    {
+      "ID": 2016562637,
+      "Title": "Spring Roo in Action",
+      "Description": "Spring Roo in Action is a unique book that teaches you how to code Java in Roo, with a particular focus on Spring-based applications. Through hands-on examples, you'll learn how Roo creates well-formed application structures and supports best practic ...",
+      "Image": "http://s.it-ebooks-api.info/5/spring_roo_in_action.jpg",
+      "isbn": "9781935182962"
+    },
+    {
+      "ID": 1503636757,
+      "Title": "Pro Spring MVC with Web Flow",
+      "Description": "Pro Spring MVC provides in-depth coverage of Spring MVC and Spring Web Flow, two highly customizable and powerful web frameworks brought to you by the developers and community of the Spring Framework.\n\nSpring MVC is a modern web application framewo ...",
+      "Image": "http://s.it-ebooks-api.info/6/pro_spring_mvc_with_web_flow.jpg",
+      "isbn": "9781430241553"
+    }
+  ]
+}
