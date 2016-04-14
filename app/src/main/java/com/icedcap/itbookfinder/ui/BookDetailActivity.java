@@ -6,8 +6,10 @@ import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
 import android.graphics.drawable.LevelListDrawable;
 import android.os.AsyncTask;
 import android.os.Build;
@@ -40,6 +42,7 @@ import com.bumptech.glide.request.target.SimpleTarget;
 import com.icedcap.itbookfinder.R;
 import com.icedcap.itbookfinder.adapter.LinearContentAdapter;
 import com.icedcap.itbookfinder.help.BookJsonHelper;
+import com.icedcap.itbookfinder.help.FastBlurUtil;
 import com.icedcap.itbookfinder.help.SharedPreferencesHelper;
 import com.icedcap.itbookfinder.help.Utils;
 import com.icedcap.itbookfinder.model.Book;
@@ -123,25 +126,34 @@ public class BookDetailActivity extends AppCompatActivity {
     private void initHeader() {
         final View header = findViewById(R.id.detail_header);
         final ImageView imageView = (ImageView) findViewById(R.id.detail_book_icon);
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            imageView.setTransitionName(LinearContentAdapter.SHARE_ELEMENT_NAME);
-        }
-        Glide.with(this).load(mBook.getIconUrl()).centerCrop().crossFade().into(imageView);
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN && false) {
-            Glide.with(this).load(mBook.getIconUrl())
-                    .asBitmap()
-                    .into(new SimpleTarget<Bitmap>() {
-                        @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
+        imageView.addOnLayoutChangeListener(new View.OnLayoutChangeListener() {
+            @Override
+            public void onLayoutChange(View v, int left, int top, int right,
+                                       int bottom, int oldLeft, int oldTop, int oldRight, int oldBottom) {
+                final Drawable drawable = imageView.getDrawable();
+
+                if (drawable != null) {
+                    new AsyncTask<Void, Void, Bitmap>() {
                         @Override
-                        public void onResourceReady(Bitmap resource, GlideAnimation<? super Bitmap> glideAnimation) {
-                            Bitmap blurBitmap = BlurHelper.apply(BookDetailActivity.this, BlurHelper.getViewBitmap(imageView));
-                            header.setBackground(new BitmapDrawable(BookDetailActivity.this.getResources(), blurBitmap));
-
+                        protected Bitmap doInBackground(Void... params) {
+                            Bitmap blurBitmap = FastBlurUtil.doBlur(Utils.drawableToBitamp(drawable), 100, false);
+                            return blurBitmap;
                         }
-                    });
-        }
 
+                        @Override
+                        protected void onPostExecute(Bitmap blurBitmap) {
+                            mAppBarLayout.setBackground(new BitmapDrawable(BookDetailActivity.this.getResources(), blurBitmap));
+                        }
+                    }.execute();
+                    imageView.removeOnLayoutChangeListener(this);
+                }
+            }
+        });
+
+        imageView.setTransitionName(LinearContentAdapter.SHARE_ELEMENT_NAME);
+
+        Glide.with(this).load(mBook.getIconUrl()).centerCrop().crossFade().into(imageView);
     }
 
     private void initView() {
