@@ -70,6 +70,12 @@ public class Utils {
         return wifiNetworkInfo.isConnected();
     }
 
+    public static boolean isNetworkConnected(Context context) {
+        ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo = cm.getActiveNetworkInfo();
+        return networkInfo != null && networkInfo.isAvailable();
+    }
+
     public static Typeface getTypefaceFromAsset(Context context) {
         return Typeface.createFromAsset(context.getAssets(), "Lobster-Regular.ttf");
     }
