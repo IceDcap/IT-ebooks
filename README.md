@@ -3,11 +3,18 @@
 An unofficial android client to search most of IT ebooks from http://it-ebooks.info/
 
 # Screenshot
-
+<p>
 <img src="screenshot/Screenshot_20160411-105948.png" width="30%" />
 <img src="screenshot/Screenshot_20160419-180309.png" width="30%" />
 <img src="screenshot/Screenshot_20160411-105934.png" width="30%" />
-![gif1](https://raw.githubusercontent.com/IceDcap/IT-ebooks/master/screenshot/Screencast_2016-04-11-10-22-363.gif) ![gif2](https://raw.githubusercontent.com/IceDcap/IT-ebooks/master/screenshot/Screencast_2016-04-11-10-22-365.gif) ![gif3](https://raw.githubusercontent.com/IceDcap/IT-ebooks/master/screenshot/Screencast_2016-04-11-10-22-362.gif)
+</p>
+
+<p>
+<img src="screenshot/Screencast_2016-04-11-10-22-363.gif" width="30%" />
+<img src="screenshot/Screencast_2016-04-11-10-22-365.gif" width="30%" />
+<img src="screenshot/Screencast_2016-04-11-10-22-362.gif" width="30%" />
+</p>
+
 
 # Thanks
 
