@@ -18,10 +18,10 @@ An unofficial android client to search most of IT ebooks from http://it-ebooks.i
 
 # Thanks
 
-[glide](https://github.com/bumptech/glide)
-[okhttp](https://github.com/square/okhttp)
-[smoothprogressbar](https://github.com/castorflex/SmoothProgressBar)
-[materialsearchview](https://github.com/MiguelCatalan/MaterialSearchView)
+ - [glide](https://github.com/bumptech/glide)
+ - [okhttp](https://github.com/square/okhttp)
+ - [smoothprogressbar](https://github.com/castorflex/SmoothProgressBar)
+ - [materialsearchview](https://github.com/MiguelCatalan/MaterialSearchView)
 
 # License
 

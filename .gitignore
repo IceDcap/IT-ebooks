@@ -33,7 +33,7 @@ captures/
 
 *.iml
 /local.properties
-.idea
+.idea/
 /.idea/workspace.xml
 /.idea/libraries
 .DS_Store

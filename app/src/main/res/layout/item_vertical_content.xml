@@ -5,21 +5,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="110dp"
-    android:layout_marginBottom="@dimen/spacing_mini"
+    android:layout_marginBottom="3dp"
     android:layout_marginLeft="@dimen/spacing_micro"
     android:layout_marginRight="@dimen/spacing_micro"
-    android:layout_marginTop="@dimen/spacing_mini"
+    android:layout_marginTop="3dp"
     android:orientation="vertical">
 
     <ImageView
         android:id="@+id/content_book_icon"
-        android:layout_width="72dp"
-        android:layout_height="100dp"
+        android:layout_width="85dp"
+        android:layout_height="110dp"
         android:layout_centerVertical="true"
-        android:layout_marginBottom="@dimen/spacing_normal"
-        android:layout_marginLeft="@dimen/spacing_normal"
         android:layout_marginRight="@dimen/spacing_normal"
-        android:layout_marginTop="@dimen/spacing_normal"
         android:scaleType="center"
         tools:src="@drawable/developing_android_applications_with_adobe_air"/>
 
@@ -27,6 +24,7 @@
         android:id="@+id/content_book_content"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/spacing_normal"
         android:layout_alignTop="@+id/content_book_icon"
         android:layout_centerVertical="true"
         android:layout_marginRight="@dimen/spacing_normal"

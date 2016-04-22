@@ -144,5 +144,4 @@ public class Utils {
         drawable.draw(canvas);
         return bitmap;
     }
-
 }

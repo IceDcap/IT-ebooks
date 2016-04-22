@@ -2,13 +2,11 @@ package com.icedcap.itbookfinder.ui;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
-import android.animation.ObjectAnimator;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.Color;
+import android.graphics.Canvas;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.LevelListDrawable;
@@ -16,52 +14,35 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
-import android.os.Looper;
-import android.os.Message;
 import android.support.design.widget.AppBarLayout;
-import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.animation.FastOutLinearInInterpolator;
-import android.support.v4.widget.NestedScrollView;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewAnimationUtils;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.request.animation.GlideAnimation;
-import com.bumptech.glide.request.target.SimpleTarget;
 import com.icedcap.itbookfinder.R;
 import com.icedcap.itbookfinder.adapter.LinearContentAdapter;
-import com.icedcap.itbookfinder.help.BookJsonHelper;
 import com.icedcap.itbookfinder.help.FastBlurUtil;
-import com.icedcap.itbookfinder.help.SharedPreferencesHelper;
 import com.icedcap.itbookfinder.help.Utils;
 import com.icedcap.itbookfinder.model.Book;
-import com.icedcap.itbookfinder.model.CacheBook;
 import com.icedcap.itbookfinder.network.FileDownloadManager;
-import com.icedcap.itbookfinder.network.RequestManager;
 import com.icedcap.itbookfinder.persistence.BookDatabaseHelper;
 import com.icedcap.itbookfinder.persistence.Constants;
 import com.icedcap.itbookfinder.presenters.LoadDetailPresenter;
-import com.icedcap.itbookfinder.presenters.NetBasePresenter;
 import com.icedcap.itbookfinder.ui.interfaces.DetailBookInterface;
-import com.icedcap.itbookfinder.ui.interfaces.RefreshInterface;
-import com.icedcap.itbookfinder.widget.blur.BlurHelper;
 
 /**
  * Created by shuqi on 16-3-27.
@@ -74,8 +55,6 @@ public class BookDetailActivity extends AppCompatActivity implements DetailBookI
     private ViewGroup mAppBarLayout;
     private ViewGroup mDownViewGroup;
     private boolean isFavorite;
-    private View mDownloadBtn;
-    private int mScrollOffset;
 
     public static Intent getStartIntent(Context context, Book book) {
         Intent starter = new Intent(context, BookDetailActivity.class);
@@ -139,7 +118,7 @@ public class BookDetailActivity extends AppCompatActivity implements DetailBookI
         imageView.addOnLayoutChangeListener(new View.OnLayoutChangeListener() {
             @Override
             public void onLayoutChange(View v, int left, int top, int right,
-                                       int bottom, int oldLeft, int oldTop, int oldRight, int oldBottom) {
+                                       final int bottom, int oldLeft, int oldTop, int oldRight, int oldBottom) {
                 final Drawable drawable = imageView.getDrawable();
 
                 if (drawable != null) {
@@ -150,8 +129,8 @@ public class BookDetailActivity extends AppCompatActivity implements DetailBookI
                         }
 
                         @Override
-                        protected void onPostExecute(Bitmap blurBitmap) {
-                            mAppBarLayout.setBackground(new BitmapDrawable(BookDetailActivity.this.getResources(), blurBitmap));
+                        protected void onPostExecute(Bitmap bitmap) {
+                            mAppBarLayout.setBackground(new BitmapDrawable(BookDetailActivity.this.getResources(), bitmap));
                         }
                     }.execute();
                     imageView.removeOnLayoutChangeListener(this);
@@ -166,45 +145,7 @@ public class BookDetailActivity extends AppCompatActivity implements DetailBookI
 
     private void initView() {
         mDownViewGroup = (ViewGroup) findViewById(R.id.detail_book_content);
-        mDownloadBtn = findViewById(R.id.download);
-        final NestedScrollView nestedScrollView = (NestedScrollView) findViewById(R.id.nestedScrollView);
-
-//        nestedScrollView.setOnScrollChangeListener(mListener);
     }
-
-    private NestedScrollView.OnScrollChangeListener mListener = new NestedScrollView.OnScrollChangeListener() {
-        @Override
-        public void onScrollChange(final NestedScrollView v, int scrollX, int scrollY, int oldScrollX, int oldScrollY) {
-            v.setOnScrollChangeListener(new NestedScrollView.OnScrollChangeListener() {
-                @Override
-                public void onScrollChange(NestedScrollView v, int scrollX, int scrollY, int oldScrollX, int oldScrollY) {
-                    /* no-op */
-                }
-            });
-            int direction = scrollY - oldScrollY;
-            if (direction > 0) {
-                //scroll up
-                mScrollOffset = scrollY;
-            }
-
-            int offset = scrollY - oldScrollY;
-            if (offset > 0) {
-                Animation animation = AnimationUtils.loadAnimation(BookDetailActivity.this, R.anim.transition_footer_up);
-                animation.setStartOffset(100);
-                mDownloadBtn.startAnimation(animation);
-            } else {
-                Animation animation = AnimationUtils.loadAnimation(BookDetailActivity.this, R.anim.transition_footer_down);
-                animation.setStartOffset(100);
-                mDownloadBtn.startAnimation(animation);
-            }
-            v.postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    v.setOnScrollChangeListener(mListener);
-                }
-            }, 100);
-        }
-    };
 
     private void initFabWithAnim(boolean anim) {
         mFab = (FloatingActionButton) findViewById(R.id.detail_fab);
@@ -275,7 +216,6 @@ public class BookDetailActivity extends AppCompatActivity implements DetailBookI
         if (mAppBarLayout != null && mDownViewGroup != null) {
             animExit(mAppBarLayout, mDownViewGroup);
         }
-
         super.onBackPressed();
     }
 
@@ -351,9 +291,7 @@ public class BookDetailActivity extends AppCompatActivity implements DetailBookI
 
     @Override
     public void fetchedData(Book result) {
-//            mDownloadBtn.setVisibility(View.VISIBLE);
         fillDataToUi(result);
-
     }
 
     @Override
@@ -377,7 +315,6 @@ public class BookDetailActivity extends AppCompatActivity implements DetailBookI
             @Override
             public void run() {
                 BookDetailActivity.this.finish();
-                overridePendingTransition(R.anim.transition_left_in, R.anim.transition_right_out);
             }
         }, 1000);
     }

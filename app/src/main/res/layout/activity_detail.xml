@@ -71,43 +71,8 @@
         android:layout_height="match_parent"
         android:visibility="gone"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
-        <!--<android.support.v4.widget.SwipeRefreshLayout-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent">-->
-
-        <!--<android.support.v7.widget.RecyclerView-->
-        <!--android:id="@+id/detail_recycleView"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent"/>-->
         <include layout="@layout/content_detail"/>
-
-        <!--</android.support.v4.widget.SwipeRefreshLayout>-->
-
-
-
     </FrameLayout>
-    <FrameLayout
-        android:id="@+id/download"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/window_background"
-        android:visibility="gone"
-        android:layout_gravity="bottom">
-        <TextView
-            android:id="@+id/book_download"
-            android:layout_width="match_parent"
-            android:layout_height="45dp"
-            android:layout_margin="@dimen/spacing_normal"
-            android:background="@drawable/btn_download_ripple"
-            android:clickable="true"
-            android:elevation="@dimen/spacing_mini"
-            android:gravity="center"
-            android:text="@string/book_download_url"
-            android:textColor="@color/white"
-            android:textSize="17sp"
-            android:textStyle="bold"/>
-    </FrameLayout>
-
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/detail_fab"
